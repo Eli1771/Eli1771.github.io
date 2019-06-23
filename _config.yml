@@ -1,11 +1,11 @@
 # Site settings
-author: elijahmm17
-title: 
+author: Elijah Myers
+title: Eli's Flatiron Journey
 header-img: img/home-bg.png
 email: elijahmm17@gmail.com
-copyright_name: elijahmm17
+copyright_name: Elijah Myers
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Getting to a developer job in my near-ish future
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Eli1771
