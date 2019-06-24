@@ -1,0 +1,23 @@
+---
+layout: post
+title:      "First Big Project! "
+date:       2019-06-24 15:46:42 +0000
+permalink:  first_big_project
+---
+
+
+Wow, this has been fun. Flatiron is very careful about making the coding envirmonent as true-to-life as possible, but they also do a good job of keeping things on rails (no pun intended) while they roll out new concepts. I was naturally nervous about having my training wheels taken away for this project, but I've been surprised at how smooth my transition into 'sandbox coding' has gone. 
+
+The initial code-structure was painless enough. I had some challenges getting all my gems to work the right way in my gemspec file, but  I get the sense that's pretty standard. Also: I have an extremely hard time plunging into my code without having a crystal clear file structure in my head... I'm  pretty sure Avi would tell me that's bad form but hey, we all start somewhere, right?
+
+My idea was to create a gem that allows you to search through a list of dogs in your are that area that are available for adoption. From a personal standpoint I liked this idea because I've been in the doggy-daycare/vet industry for quite a while now and it's amazing how many dogs are in need of a loving home. From a technical standpoint I was excited about building a scraper that pulled data from a dynamic URL that changes based on user input. Someone running this gem first enters their zip code, which is interpolated into the base url of `"https://www.adoptapet.com/dog-adoption/50/miles/#{zip_code}"`. Anyway, my scraper object runs on two levels: there is a page thats displays a list of available dogs in a given area along with some low-level info about each animal. At this level the scraper grabs all of this info along with a link (in the href attribute of an a tag in each dog 'button') to a more detailed info page for each dog. Enter the second scraper method. This takes an argument of the specifec pet's URL, and grabs information like their breed, bio and contact information if you're interested in learning more about how to adopt them. Of course, none of this is too mind-blowing compared to anything else we've seen in the cirriculum thus far, but I'll tell you something you probably didn't know about the open-uri gem unless you've been in this exact situation. 
+
+Forgive me for anything I'm misunderstanding here. I'm just giving you my take on what's going on based on things I've read on stack-overflow. So for any web page, there is an 'open' state that is acheived once all the basic html is loaded (pre-script I think?), hence the 'open' in open-uri. This is the point where we get a temporary file of all the page's html, presumably to be sent into Nokogiri for parsing. Unfortunately for many of us, pages that use any kind of search function seem to like to use post-script AJAX to load much of the content. You know, like all the important stuff. I suppose there's a chance that AJAX-based searching is weirdly specific to animal rescue websites, but I have my doubts. On that note, has anyone *not* run into this problem?? Because I can't think of many CLI gems that wouldn't rely on something like this. 
+
+I digress. I quickly found that scraping an AJAX heavy page isn't the end of the world. Watir gems offer a wide range of *browser-type* functionality. That way you can get a page fully loaded, and even interact with buttons, forms, etc. before sending html to Nokogiri. 
+
+I guess I'll give away the big take-away now. *Coding is a COMMUNITY sport.* If you get stuck, swallow your pride and reach out to your fellow coders. I spent literal days learning about webdrivers for different browsers and trying (fruitlessly) to install them into the in-browser IDE before I finally caved and reached out to the learn staff. It took her ten minutes to tell me that what I was trying to do was impossible on the built-in IDE, and to send me several links on how to set up my local environment. The process was quite tedious and took me most of a day, but guess what. The first thing she said to me was essentially *oh yea, I've tried to do that before. Here's what worked instead.* 
+
+I'm assuming I'll run into this until I retire or die, because I've already stumbled on the importance of not trying to reinvent the wheel roughly a thousand times, but I insist on trying to anyway. Building out this gem has been extremely fun and rewarding overall, but it could've taken roughly half the time if I had reached out right away. 
+
+That wasn't the only big road block I ran into, but it was the most time-intensive. It seems like for everything you fix there's always two new things to build or improve. It can be frustrating, but it can also be rewarding and beautiful! 
