@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Personal Speed-Coding Do's and Don'ts "
-date:       2019-08-19 20:07:48 +0000
+date:       2019-08-19 16:07:48 -0400
 permalink:  my_personal_speed-coding_dos_and_donts
 ---
 
