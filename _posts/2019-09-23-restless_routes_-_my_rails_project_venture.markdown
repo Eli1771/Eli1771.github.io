@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Restless Routes - My Rails Project Venture"
-date:       2019-09-23 15:06:27 +0000
+date:       2019-09-23 11:06:30 -0400
 permalink:  restless_routes_-_my_rails_project_venture
 ---
 
