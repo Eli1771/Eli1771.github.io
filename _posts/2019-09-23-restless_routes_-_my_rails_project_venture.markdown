@@ -29,10 +29,10 @@ Now we come to the central concern: routing. What is the ideal balance between m
 
 ```
 create_table students do |t| 
-  t.string :name 
-	t.string :email 
-  t.string :password_digest 
-  t.integer :course_level
+t.string :name 
+t.string :email 
+t.string :password_digest 
+t.integer :course_level
 end
 ```
 
@@ -40,10 +40,10 @@ end
 
 ```
 create_table teachers do |t| 
-  t.string :name 
-	t.string :email 
-  t.string :password_digest 
-	t.integer :course_level 
+t.string :name 
+t.string :email 
+t.string :password_digest 
+t.integer :course_level
 end 
 ```
 
