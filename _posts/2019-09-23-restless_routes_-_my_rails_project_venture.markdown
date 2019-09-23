@@ -51,11 +51,11 @@ Obvious problem, right? First, if I want every user to log in from the same page
 
 ```
 create_table users do |t|  
-  t.string :name
-	t.string :email 
-  t.string :password_digest 
-	t.integer :course_level
-	t.boolean :is_teacher 
+t.string :name 
+t.string :email 
+t.string :password_digest 
+t.integer :course_level
+t.boolean :is_teacher
 end 
 ```
 
