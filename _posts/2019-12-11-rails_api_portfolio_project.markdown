@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails API Portfolio Project"
-date:       2019-12-11 07:21:10 +0000
+date:       2019-12-11 02:21:11 -0500
 permalink:  rails_api_portfolio_project
 ---
 
@@ -10,7 +10,7 @@ permalink:  rails_api_portfolio_project
 
 Wow, this one took a long time! It's been a busy season for me and making this app sure was a journey, but I'm extremely proud of how Meal Mate turned out. I'll get right to the project, and I'll try to keep this post pretty brief (knock on wood), but there's a couple things I want to talk about. Here goes! 
 
-**The Concept: **
+**The Concept**
 
 Meal Mate was the first portfolio project that wasn't specifically created for a friend or family member in order to assist with some business problem of theirs. I was inimidated by the lack of direction at first, but I've enjoyed the freedom to try come up with something that could be as fun and as pleasing as it could be useful. 
 
