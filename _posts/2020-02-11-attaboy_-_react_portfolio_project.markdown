@@ -6,7 +6,7 @@ permalink:  attaboy_-_react_portfolio_project
 ---
 
 
-### Part I - From False to Farts 
+## Part I - From False to Farts 
 
 **That time I accidentally fixed my broken code with nonsense**
 
@@ -88,7 +88,7 @@ Obviously this blog post is a lot more anecdotal than instructional, but I love 
 
 The moral of the story is this: Keep at it! Debugging is often a frustrating process, but one of my favorite things about development is how code can sometimes behave in the most charmingly unpredictable ways. 
 
-### Part  II - Styling: A Love/Hate Relationship
+## Part  II - Styling: A Love/Hate Relationship
 
 I'll be breif.
 
