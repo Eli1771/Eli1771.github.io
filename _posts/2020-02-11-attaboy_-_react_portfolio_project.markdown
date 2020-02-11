@@ -6,7 +6,8 @@ permalink:  attaboy_-_react_portfolio_project
 ---
 
 
-#### Part I - From False to Farts 
+### Part I - From False to Farts 
+
 **That time I accidentally fixed my broken code with nonsense**
 
 Let me start with a quick project description. As a member of the pet industry I've always been in love with training. Attaboy! takes the concept of very simple reinforcement-based training to make a tracking app for each of your dogs and their respective skills. The application backend is extremely light (the data being used is very simple, but the potential applications of that data are powerful indeed) it utilizes only three resources: 
@@ -87,7 +88,7 @@ Obviously this blog post is a lot more anecdotal than instructional, but I love 
 
 The moral of the story is this: Keep at it! Debugging is often a frustrating process, but one of my favorite things about development is how code can sometimes behave in the most charmingly unpredictable ways. 
 
-#### Part  II - Styling: A Love/Hate Relationship
+### Part  II - Styling: A Love/Hate Relationship
 
 I'll be breif.
 
